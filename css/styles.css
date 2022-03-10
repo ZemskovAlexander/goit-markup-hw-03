@@ -19,6 +19,7 @@
   background-color: var(--primary-bg-color);
   font-family: Roboto, sans-serif;
 }
+
 ul {
   list-style: none;
 }
@@ -198,12 +199,7 @@ a {
   letter-spacing: 0.03em;
 }
 
-/* Button */
-
-/* .button {
-  color: var(--title-text-color);
-  background-color: var(--primary-bg-color);
-} */
+/* Logo */
 
 .logo-ft {
   color: var(--accent-color);
@@ -261,6 +257,12 @@ footer {
   letter-spacing: 0.03em;
 }
 
+/* Button */
+
+.button {
+  padding: 0px 0px;
+}
+
 .button-first {
   cursor: pointer;
   color: var(--primary-bg-color);
@@ -280,8 +282,11 @@ footer {
   background-color: var(--accent-color);
   cursor: pointer;
 
-  border-radius: 4px;
+  /* border-radius: 4px; */
   padding: 10px 32px;
+  /* min-width: 200px; */
+  border-right: 0px;
+  border-left: 0px;
 
   font-family: inherit;
   font-style: normal;
