@@ -32,10 +32,10 @@ ul {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
+  width: 1230px;
   outline: 2px solid tomato;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 a {
@@ -63,6 +63,7 @@ a {
 .main-nav {
   display: flex;
   align-items: center;
+  margin-bottom: 94px;
 }
 .main-nav .nav-top {
   display: flex;
@@ -262,7 +263,7 @@ flex-wrap: wrap;
   line-height: 0.8;
 
   margin-top: 0;
-  margin-bottom: 124px;
+  margin-bottom: 30px;
 
   /* text-align: center; */
   letter-spacing: 0.03em;
@@ -323,11 +324,22 @@ footer {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  /* text-align: center; */
+  text-align: center;
   letter-spacing: 0.03em;
   border-radius: 4px;
   padding: 6px 22px;
+
 }
+
+.menu-filter {
+display: flex;
+margin-bottom: 34px;
+padding-left: 300px;
+padding-right: 300px;
+width: 600px;
+
+}
+
 
 /* Button */
 
@@ -384,7 +396,7 @@ footer {
   border-color: transparent;
 }
 
-.works .team {
+ .team {
   color: var(--title-text-color);
 
   font-style: normal;
@@ -404,6 +416,14 @@ footer {
 
   letter-spacing: 0.03em;
 }
+
+.works {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 94px;
+}
+
 
 /* Набор услуг */
 
