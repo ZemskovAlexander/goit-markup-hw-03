@@ -213,7 +213,7 @@ a {
 
 .feature-list {
 display: flex;
-flex-wrap: wrap;
+margin-bottom: 94px;
 }
 
 .feature-list > .item {
@@ -450,11 +450,39 @@ width: 600px;
 /*  */
 } 
 
+.flex-cont {
+  display: flex;
+background-color: teal;
+margin-bottom: 50px;
+}
+
+.flex-section {
+  margin-right: 30px;
+}
+
+.flex-team {
+  margin-right: 30px;
+}
+
+.flex-feature {
+  width: calc(100% - 60px) / 4;
+  background-color: tomato;
+  margin-right: 30px;
+} 
+
 .flex-element:nth-child(3n) {
   margin-right: 0;
 }
 
 .flex-element:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+
+.flex-section:nth-child(3n) {
+  margin-right: 0;
+}
+
+.flex-section:nth-last-child(-n + 1) {
   margin-bottom: 0;
 }
 
