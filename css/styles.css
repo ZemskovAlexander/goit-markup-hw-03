@@ -38,6 +38,15 @@ ul {
   padding-right: 15px;
 }
 
+.container-footer {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
 a {
   text-decoration: none;
 }
@@ -64,6 +73,7 @@ a {
   display: flex;
   align-items: center;
   margin-bottom: 94px;
+  border: 1px solid #EEEEEE  ;
 }
 .main-nav .nav-top {
   display: flex;
@@ -132,6 +142,11 @@ a {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
+.contact-nav .item + .item {
+  margin-top: 9px;
+}
+
 .contact-nav .contact:hover,
 .contact-nav .contact:focus {
   color: var(--primary-bg-color);
@@ -146,7 +161,7 @@ a {
   letter-spacing: 0.02em;
 
   padding-top: 32px;
-  padding-bottom: 32px;
+  padding-bottom: 30px;
 }
 .contact-top .contact:hover,
 .contact-top .contact:focus {
@@ -200,14 +215,24 @@ a {
 }
 
 .team {
-  margin-top: 0;
-  margin-bottom: 10px;
 
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  /* text-align: center; */
-  letter-spacing: 0.03em;
+    color: var(--title-text-color);
+  
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.7;
+    /* text-align: center; */
+  
+    letter-spacing: 0.06em;
+  
+  
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 24px;
+  padding-bottom: 24px;
+
+  
 }
 /* Features */
 
@@ -264,15 +289,21 @@ margin-bottom: 94px;
 } */
 /* Team */
 
+img {
+  margin-bottom: 31px;
+}
+
 .position {
   color: var(--primary-text-color);
 
   font-weight: 400;
   font-size: 16px;
   line-height: 0.8;
-
+  padding-left: 24px;
+  padding-bottom: 20px;
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 0;
+  /* margin-bottom: 30px; */
 
   /* text-align: center; */
   letter-spacing: 0.03em;
@@ -337,15 +368,16 @@ footer {
   letter-spacing: 0.03em;
   border-radius: 4px;
   padding: 6px 22px;
+  margin-left: 8px;
 
 }
 
 .menu-filter {
 display: flex;
 margin-bottom: 34px;
-padding-left: 300px;
-padding-right: 300px;
-width: 600px;
+padding-left: 280px;
+padding-right: 280px;
+/* width: 600px; */
 
 }
 
@@ -405,18 +437,6 @@ width: 600px;
   border-color: transparent;
 }
 
- .team {
-  color: var(--title-text-color);
-
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.7;
-  /* text-align: center; */
-
-  letter-spacing: 0.06em;
-}
-
 .works p {
   font-weight: 400;
   font-size: 16px;
@@ -437,6 +457,10 @@ width: 600px;
 
 /* Набор услуг */
 
+.border {
+  border: 1px solid #EEEEEE  ;
+}
+
 .test-container {
 
   width: 1230px;
@@ -456,8 +480,8 @@ width: 600px;
   width: calc(100% - 60px) / 3;
   
   margin-right: 30px;
-  /* margin-bottom: 30px;
-/*  */
+  margin-bottom: 30px;
+
 } 
 
 .flex-cont {
@@ -496,6 +520,12 @@ margin-bottom: 50px;
   margin-bottom: 0;
 } */
 
+.logotype {
+  display: inline-block;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
 .adress-geo {
   color: var(--primary-bg-color);
 
@@ -504,4 +534,5 @@ margin-bottom: 50px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-bottom: 9px;
 }
