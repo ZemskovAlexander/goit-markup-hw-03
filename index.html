@@ -35,7 +35,7 @@
             </nav>
             <ul class="contact-top list">
                 <li class="item"><a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a></li>
-                <li class="item"><a href="tel:+380961111111" class="contact">tel:+380961111111</a></li>
+                <li class="item"><a href="tel:+380961111111" class="contact">+38 096 111 11 11</a></li>
             </ul>
        </div>
 
@@ -43,10 +43,12 @@
 
     <main>
 
-        <section class="hero">
-            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-            <button type="button" class="button-top">Заказать услугу</button>
-        </section>
+        <div class="container">
+            <section class="hero">
+                <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+                <button type="button" class="button-top">Заказать услугу</button>
+            </section>
+        </div>
 
         <!-- Преимущества -->
 
@@ -99,7 +101,7 @@
         <section class="section no-padding">
            <div class="container">
                 <h2 class="section-team">Чем мы занимаемся</h2>
-                <div class="flex-cont">
+                <div class="flex">
                     
                 
                 <ul class="flex-cont list">
@@ -133,7 +135,7 @@
                 <h2 class="section-team">Наша команда</h2>
                 
                 <ul class="flex-cont list">
-                    <li class="flex-team">
+                    <li class="flex-team list">
                         <img src="./team/img.jpg" alt="Игорь Демьяненко" width="270">
                         <h3 class="team">Игорь Демьяненко</h3>
                         <p class="position">Product Designer</p>
@@ -161,16 +163,18 @@
 
     <!-- Футер -->
 
-    <footer>
-        <a href="/" class="logo-ft">
-            Web<span class="logo-footer">Studio</span>
-        </a>
+    <footer class="container-footer">
+        <div class="logotype">
+            <a href="/" class="logo-ft">
+                Web<span class="logo-footer">Studio</span>
+            </a>
+        </div>
 
         <address class="adress">
-            <p class="adress-geo">г. Киев, пр-т Леси Украинки, 26</p>
-            <ul class="contact-nav">
-                <li><a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111" class="contact">tel:+380961111111</a></li>
+            <p class="adress-geo list">г. Киев, пр-т Леси Украинки, 26</p>
+            <ul class="contact-nav list">
+                <li class="item"><a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a></li>
+                <li class="item"><a href="tel:+380961111111" class="contact">+38 096 111 11 11</a></li>
             </ul>
         </address>
     </footer>
