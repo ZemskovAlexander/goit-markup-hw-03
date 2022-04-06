@@ -32,11 +32,10 @@ ul {
 .container {
   margin-left: auto;
   margin-right: auto;
-
-  width: 1170px;
+  width: 1200px;
   /* outline: 2px solid tomato; */
-  /* padding-left: 15px;
-  padding-right: 15px; */
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .section-aboutus .container {
@@ -46,7 +45,7 @@ ul {
 }
 
 .container-footer {
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -59,6 +58,11 @@ ul {
 a {
   text-decoration: none;
 }
+
+.page-header {
+  border-bottom: 1px solid #EEEEEE  ;
+}
+
 /* Logo */
 
 .logo {
@@ -82,10 +86,7 @@ a {
 .main-nav {
   display: flex;
   align-items: center;
-  border: 1px solid #EEEEEE  ;
-  width: 1170px;
-  padding-left: 15px;
-  padding-right: 15px;
+  
 }
 .main-nav .nav-top {
   display: flex;
@@ -97,7 +98,7 @@ a {
 
 .site-nav {
   display: flex;
-  margin-left: 40px;
+  margin-left: 93px;
   align-items: center;
 }
 
@@ -188,8 +189,8 @@ a {
 
 .hero {
   text-align: center;
-  margin-top: 0;
-  margin-bottom: 40;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--hero-bg-color);
 }
 
@@ -201,31 +202,28 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  width: 696px;
+  padding-left: 237px;
 
   margin-top: 0px;
   margin-bottom: 30px;
 }
 
-.container .hero {
-  
-  margin-bottom: 94px;
-}
-
 /* Section */
 
-.section.no-padding {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-/* .section {
-  padding-bottom: 94px;
+.section-benefits {
   padding-top: 94px;
-} */
+  /* padding-bottom: 94px; */
+}
+
+.jobs {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .section-team {
   margin-top: 0;
   margin-bottom: 50px;
-  padding-top: 94px;
 
   color: var(--title-text-color);
   font-style: normal;
@@ -290,24 +288,23 @@ padding-left: 24px;
 
 .feature-list {
 display: flex;
-margin-bottom: 94px;
 }
 
-/* .feature-list > .item {
-  width: 300px;
-  padding-top: 94px;
-  padding-bottom: 94px; */
-  /* background-color: tomato; */
+.feature-list > .item {
+  width: 270px;
+ 
+  /* background-color: tomato;*/
+}
 
 
 
-.feature-list .flex-feature + .flex-feature {
+.flex-cont .item + .item {
   margin-left: 30px;
 }
 
-.flex-cont .flex-section + .flex-section {
+/* .flex-cont .flex-section + .flex-section {
   margin-left: 30px;
-}
+} */
 
 
 .section-title {
@@ -335,15 +332,11 @@ margin-bottom: 94px;
   letter-spacing: 0.03em;
 }
 
-/* .feature-list p {
-  margin-top: 0px; */
-/* margin-bottom: 10px;
-} */
-/* Team */
-
 img {
-  margin-bottom: 31px;
+  display: block;
 }
+
+/* Team */
 
 .position {
   color: var(--primary-text-color);
@@ -385,6 +378,8 @@ img {
 
 .section-aboutus {
   background-color: var(--button-bg-color);
+padding-top: 94px;
+
 }
 
 footer {
@@ -512,9 +507,9 @@ justify-content: center;
 
 .test-container {
 
-  width: 1170px;
-  /* padding-left: 15px;
-  padding-right: 15px; */
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
