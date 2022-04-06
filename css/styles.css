@@ -72,9 +72,13 @@ a {
   font-size: 26px;
   line-height: 0.83;
   letter-spacing: 0.03em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .logo .logo-sc {
   color: var(--title-text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .logo .logo-footer {
   color: var(--primary-bg-color);
@@ -259,13 +263,13 @@ font-style: normal;
 font-weight: 700;
 font-size: 18px;
 line-height: 1.7;
-/* text-align: center; */
 letter-spacing: 0.06em;
   
 margin-top: 0;
 margin-bottom: 0;
 padding-bottom: 24px;
 padding-left: 24px;
+padding-top: 20px;
 }
 
 .project {
@@ -395,6 +399,8 @@ footer {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 /* Фильтр */
 
@@ -428,9 +434,6 @@ justify-content: center;
 
 /* Button */
 
-/* .button {
-  padding: 0px 0px;
-} */
 
 .button-first {
   cursor: pointer;
@@ -439,11 +442,11 @@ justify-content: center;
   font-family: inherit;
   border-color: var(--accent-color);
   border: 1px solid transparent;
+
   font-style: 400;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  /* text-align: center; */
   letter-spacing: 0.03em;
   border-radius: 4px;
   padding: 6px 22px;
@@ -461,7 +464,6 @@ justify-content: center;
   border-left: 0px;
 
   font-family: inherit;
-  /* font-style: normal; */
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
@@ -485,7 +487,6 @@ justify-content: center;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
-  /* text-align: center; */
 
   letter-spacing: 0.03em;
 }
@@ -495,7 +496,6 @@ justify-content: center;
   flex-wrap: wrap;
   align-items: center;
   margin-bottom: 94px;
-  /* border: 1px solid var(--primary-text-color) ; */
 }
 
 
@@ -521,9 +521,9 @@ justify-content: center;
 }
 
 .flex-element {
-  width: calc(100% - 60px) / 3;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  width: calc(100% - 40px) / 3;
+  margin-right: 30px;
+  margin-bottom: 30px;
 
 } 
 
@@ -552,11 +552,6 @@ justify-content: center;
   
 }
 
-.flex-feature {
-  width: calc(100% - 60px) / 4;
-
-  /* margin-right: 30px; */
-} 
 
 .flex-element:nth-child(3n) {
   margin-right: 0;
@@ -566,13 +561,6 @@ justify-content: center;
   margin-bottom: 0;
 }
 
-/* .flex-section:nth-child(3n) {
-  margin-right: 0;
-}
-
-.flex-section:nth-last-child(-n + 1) {
-  margin-bottom: 0;
-} */
 
 .logotype {
   display: inline-block;
