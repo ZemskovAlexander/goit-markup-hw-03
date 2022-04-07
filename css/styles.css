@@ -38,21 +38,9 @@ ul {
   padding-right: 15px;
 }
 
-.section-aboutus .container {
+.section {
+  padding-top: 94px;
   padding-bottom: 94px;
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.container-footer {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 60px;
-  text-align: left;
-
 }
 
 a {
@@ -215,16 +203,6 @@ a {
 
 /* Section */
 
-.section-benefits {
-  padding-top: 94px;
-  /* padding-bottom: 94px; */
-}
-
-.jobs {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .section-team {
   margin-top: 0;
   margin-bottom: 50px;
@@ -238,16 +216,21 @@ a {
   letter-spacing: 0.03em;
 }
 
+.feature {
+  padding-bottom: 0;
+}
+
+.aboutus {
+  background-color: var(--button-bg-color);
+}
+
 .team {
 
-    color: var(--title-text-color);
-  
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.7;
-    /* text-align: center; */
-  
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.7;
   letter-spacing: 0.06em;
   margin-top: 0;
   margin-bottom: 0;
@@ -274,18 +257,16 @@ padding-top: 20px;
 
 .project {
   color: var(--primary-text-color);
-
+  letter-spacing: 0.03em;
   font-weight: 400;
   font-size: 16px;
   line-height: 0.8;
+
   padding-bottom: 20px;
   padding-left: 24px;
   margin-top: 0;
   margin-bottom: 0;
-  /* margin-bottom: 30px; */
-
-  /* text-align: center; */
-  letter-spacing: 0.03em;
+  
 }
 
 /* Features */
@@ -312,7 +293,7 @@ display: flex;
 
 
 .section-title {
-  /* display: inline; */
+
   margin-bottom: 10px;
   margin-top: 0px;
 
@@ -332,7 +313,6 @@ display: flex;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-
   letter-spacing: 0.03em;
 }
 
@@ -344,17 +324,15 @@ img {
 
 .position {
   color: var(--primary-text-color);
-
+  letter-spacing: 0.03em;
   font-weight: 400;
   font-size: 16px;
   line-height: 0.8;
+
   padding-bottom: 20px;
   margin-top: 0;
   margin-bottom: 0;
-  /* margin-bottom: 30px; */
-
-  /* text-align: center; */
-  letter-spacing: 0.03em;
+  
 }
 
 /* Logo */
@@ -380,14 +358,12 @@ img {
   letter-spacing: 0.03em;
 }
 
-.section-aboutus {
-  background-color: var(--button-bg-color);
-padding-top: 94px;
 
-}
 
 footer {
   background-color: var(--hero-bg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 /* Страница портфолио */
@@ -424,9 +400,9 @@ footer {
 
 }
 
-.menu-filter {
+.portfolio-filter {
 display: flex;
-margin-top: 94px;
+margin-top: 0;
 margin-bottom: 34px;
 justify-content: center;
 }
@@ -459,7 +435,7 @@ justify-content: center;
 
   border-radius: 4px;
   padding: 10px 32px;
-  min-width: 200px;
+  /* min-width: 200px; */
   border-right: 0px;
   border-left: 0px;
 
@@ -487,59 +463,36 @@ justify-content: center;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
-
   letter-spacing: 0.03em;
 }
 
-.works {
+.portfolio-list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-bottom: 94px;
 }
 
 
 /* Набор услуг */
 
-.border {
-  border: 1px solid #EEEEEE  ;
-}
-
-.test-container {
-
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  
+.element-border {
+  border-left: 1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
 }
 
 .flex-element {
-  width: calc(100% - 40px) / 3;
+  /* width: calc(100% - 40px) / 3; */
   margin-right: 30px;
   margin-bottom: 30px;
 
-} 
-
-.flex {
-  display: flex;
-}  
+}   
 
 .flex-cont {
   display: flex;
 
-/* padding-bottom: 94px; */
 }
 
-/* .flex-section {
-  margin-right: 30px;
-} */
 
 .flex-team {
   margin-right: 30px;
@@ -547,10 +500,6 @@ justify-content: center;
   text-align: center;
 }
 
-.flex-section img {
-  margin-bottom: 94px;
-  
-}
 
 
 .flex-element:nth-child(3n) {
